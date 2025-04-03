@@ -10,6 +10,5 @@ for (i = 0; i < myArray.length; i++) {
 }
 
 // 4.
-newValue = "Changed value";
-myArray.splice(1, 1, newValue);
+myArray.splice(1, 1, "Changed value");
 console.log(myArray);
