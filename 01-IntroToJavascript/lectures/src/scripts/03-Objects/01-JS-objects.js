@@ -40,6 +40,11 @@ const [skipFruit1, , skipFruit3] = fruits;
 console.log(skipFruit1, skipFruit3);
 
 // Simple Object Destructuring
+const {
+  name,
+  address: { city },
+} = person;
+//kinda wrong
 const personName = person.name;
 const personAge = person.age;
 console.log(personName, personAge);

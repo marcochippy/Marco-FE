@@ -12,6 +12,6 @@ array1.splice(2, 1, 35, 36);
 console.log(array1);
 
 // 2.
-newArray = array2.toSpliced(0, 1, "b", "c");
+newArray = array2.toSpliced(1, 1, "b", "c");
 console.log(array2);
 console.log(newArray);

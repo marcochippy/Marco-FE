@@ -10,5 +10,6 @@ for (i = 0; i < myArray.length; i++) {
 }
 
 // 4.
+myArray[0] = 7;
 myArray.splice(1, 1, "Changed value");
 console.log(myArray);

@@ -1,4 +1,4 @@
-numberArray = [10, 20, 30, 40, 50];
+const numberArray = [10, 20, 30, 40, 50];
 // forEach
 numberArray.forEach((number) => {
   console.log(number);
